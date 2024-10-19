@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>color_picker</title>
+  </head>
+  <body id="body">
+    <!-- creat main container -->
+    <div class="contanier main_contain">
+      <div class="row">
+        <div class="col-md-8 collum">
+          <div class="title" id="titleName">
+            <h1>color picker</h1>
+            <br />
+          </div>
+          <!-- for creat color picker form input -->
+          <input type="color" class="form-control" id="colorPicker" />
+          <!-- select btn -->
+          <div class="contain_btn">
+            <button id="selectBtn" class="btn btn-warning">select</button>
+          </div>
+          <!-- for output box -->
+          <div class="containnerOutput mt-3">
+            <div id="outputBox" class="form-control"><h5>output text</h5></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
